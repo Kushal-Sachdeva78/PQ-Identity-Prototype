@@ -2,8 +2,8 @@
 
 Reproducible reference prototype for the IEEE Access paper **"A Privacy-Focused, Post-Quantum-Oriented Digital Identity System Using Blockchain and Zero-Knowledge Proofs"**: a full digital credential lifecycle on real post-quantum cryptography (ML-DSA-44, ML-KEM-512 via liboqs) with a 21,715-constraint Groth16 zero-knowledge circuit, Poseidon sparse-Merkle revocation, an EVM registry layer, and measured, regenerable benchmarks.
 
-![Paper](https://img.shields.io/badge/Paper-IEEE%20Access-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20Access-blue)](https://ieeexplore.ieee.org/document/11614404)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ## Publication
 
@@ -13,7 +13,7 @@ The paper is published in IEEE Access.
 - **DOI**: 10.1109/ACCESS.2026.3715111
 - **Manuscript ID**: Access-2026-15409
 
-Full article: [link to be added]
+Full article: [ieeexplore.ieee.org/document/11614404](https://ieeexplore.ieee.org/document/11614404)
 
 ## What it demonstrates
 
@@ -127,4 +127,4 @@ More of my work: [github.com/Kushal-Sachdeva78](https://github.com/Kushal-Sachde
 
 ## License
 
-MIT. See `LICENSE`.
+MIT. See [LICENSE](LICENSE).
