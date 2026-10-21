@@ -121,7 +121,7 @@ Task-focused guides live under [`docs/`](docs/): [`SETUP.md`](docs/SETUP.md), [`
 
 ## Author
 
-**Kushal Sachdeva** ([ORCID 0009-0007-5126-0696](https://orcid.org/0009-0007-5126-0696)), Research Intern, Algorand Foundation; Vasant Valley School, New Delhi, India.
+**Kushal Sachdeva** ([ORCID 0009-0007-5126-0696](https://orcid.org/0009-0007-5126-0696)), Research Intern, Algorand Technologies; Vasant Valley School, New Delhi, India.
 
 More of my work: [github.com/Kushal-Sachdeva78](https://github.com/Kushal-Sachdeva78), including [autonomous RoboCup soccer robots](https://github.com/Kushal-Sachdeva78/VVS-Ballers-RoboCup) (9th place, RoboCup 2026).
 
