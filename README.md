@@ -1,4 +1,11 @@
 # PQ-ID Prototype
+Reproduces the IEEE Access post-quantum-oriented digital-ID paper: issue, prove in zero knowledge, revoke, reject. For crypto researchers.
+```bash
+make provision setup demo
+```
+<!-- DEMO: record a 5-10 s GIF of `make demo`, save as docs/demo.gif, then replace this line with ![make demo](docs/demo.gif) -->
+
+> Research artifact, not production code: the trusted setup is a deterministic dev beacon, not an MPC ceremony, so don't use its proofs for anything security-relevant. A redesign is in [PQ-Identity-Prototype-v4](https://github.com/Kushal-Sachdeva78/PQ-Identity-Prototype-v4).
 
 Reproducible reference prototype for the IEEE Access paper **"A Privacy-Focused, Post-Quantum-Oriented Digital Identity System Using Blockchain and Zero-Knowledge Proofs"**: a full digital credential lifecycle on real post-quantum cryptography (ML-DSA-44, ML-KEM-512 via liboqs) with a 21,715-constraint Groth16 zero-knowledge circuit, Poseidon sparse-Merkle revocation, an EVM registry layer, and measured, regenerable benchmarks.
 
