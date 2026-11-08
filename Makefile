@@ -8,12 +8,14 @@
 
 SHELL := bash
 .ONESHELL:
-.PHONY: all help provision setup build test bench bench-pqc bench-zk bench-baseline gas \
+.PHONY: all help quickstart provision setup build test bench bench-pqc bench-zk bench-baseline gas \
         e2e negative probe tables demo lint clean package verify-pins
 
 PREFIX ?= $(HOME)/pqid-native
 
 all: setup build test bench tables ## setup + build + test + bench + tables
+
+quickstart: provision setup demo ## provision + setup + demo
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | \
