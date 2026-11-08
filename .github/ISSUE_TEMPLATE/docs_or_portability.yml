@@ -1,0 +1,23 @@
+name: Documentation or portability improvement
+description: Suggest a documentation fix, a clearer instruction or a portability fix
+title: "[docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change
+      description: Point to the file and line if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This does not change the circuit, the contracts or the cryptographic operations (those are out of scope for this archival artifact).
+          required: true

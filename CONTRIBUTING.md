@@ -27,6 +27,9 @@ production library.
 - **Questions / issues** — please open a GitHub issue describing your host
   (CPU, OS, Node/Python/toolchain versions) and attach the relevant
   `results/*.json`. The embedded host metadata makes mismatches diagnosable.
+- **Response time** — I aim to reply to every new issue within 24 hours
+  (India Standard Time). If I'm slower than that, I'll say so on the issue
+  rather than leave it silent.
 - **Corrections** — factual corrections to the documentation, build scripts, or
   portability fixes are welcome via pull request. Changes that alter measured
   behaviour, algorithms, the circuit, the contracts, or the cryptographic
