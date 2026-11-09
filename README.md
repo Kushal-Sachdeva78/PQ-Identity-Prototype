@@ -53,6 +53,14 @@ All figures below are committed, machine-generated measurements in `results/*.js
 
 ## Quick start
 
+Run the entire flow (native toolchain provisioning, circuit setup, and lifecycle demo) with:
+
+```bash
+make quickstart
+```
+
+Or run the individual steps:
+
 ```bash
 # 1. native toolchain (liboqs, GMP, rapidsnark, python venv) inside WSL2/Linux:
 make provision            # or: bash docker/provision-wsl.sh
